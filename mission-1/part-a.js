@@ -74,3 +74,5 @@
 
 // let stock = 1;
 // const stockMessage = stock>0 ? "In stock" : "Out of stock";
+
+// yay
