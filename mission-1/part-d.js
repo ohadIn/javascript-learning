@@ -108,5 +108,4 @@ const bestMovies = movies
   .filter((movie) => movie.rating > 8)
   .map((movie) => movie.title);
 console.log(bestMovies);
-
 console.log(posts.find((post) => post.id === 102));
