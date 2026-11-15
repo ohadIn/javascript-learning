@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="Bank4U.main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Bank4U</title>
+    <link href="Styles/main-style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav>
+        <a id="nav-button-home" href="index.aspx">Home</a>
+        <a id="nav-button-balance" href="#">Balance</a>
+        <a id="nav-button-loans" href="#">Loans</a>
+        <a id="nav-button-stocks" href="#">Stocks</a>
+        <a id="nav-button-tos" href="#">T.O.S</a>
+        <a id="nav-button-login" class="nav-option-toright" href="login.aspx">Login</a>
+        <a id="nav-button-signup" class="nav-option-toright" href="signup.aspx">Sign Up</a>
+    </nav>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>
